@@ -1,0 +1,66 @@
+﻿# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: pygments
+
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title
+
+# Setup
+title:            'Front End Technology Blog'
+tagline:          'Front End Tecnology Blog'
+description:      'Blog for all Front End Developers....'
+url:              'http://localhost:4000'
+baseurl:          ''
+
+# Navigation
+navigation:
+- text: About
+  url: /about/
+- text: Resume
+  url: /resume/
+- text: Blog
+  url: /blog/
+- text: Tags
+  url: /tags/
+- text: Archive
+  url : /archive/
+
+# Author Details
+author:         'Boban Radeski'
+linkedin:       'https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile'
+twitter:        'https://twitter.com/master_boban'
+facebook:       'https://www.facebook.com/boban.radeski'
+gplus:          'https://plus.google.com/+%D0%91%D0%BE%D0%B1%D0%B0%D0%BD%D0%A0%D0%B0%D0%B4%D0%B5%D1%81%D0%BA%D0%B8/posts'
+
+# Google Analytics
+gahandler: ''
+
+#if footer-links-visible is 'true' the svg-icons will be shown top on the copy right. 
+#else the svg icons will not exist
+footersvg: 'true'
+
+footer-links:
+  dribbble: 
+  email: None
+  facebook: 
+  flickr: 
+  github: 
+  instagram: 
+  linkedin: 
+  pinterest: 
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  google: None
+  twitter: None
+  stackoverflow: ""
+
+# Disqus
+disqushandler: ''
+
+# Blog Configurations
+paginate: 10 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+destination: ./_site
+
+# Custom vars
+version:          0.0.1
