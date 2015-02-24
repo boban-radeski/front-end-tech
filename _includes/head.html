@@ -30,13 +30,13 @@
   {% endif %}
 
   <!-- CSS -->
-    <link rel="stylesheet" href="{{site.url}}/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="{{site.url}}/assets/css/app.css">
-    <link rel="stylesheet" href="{{site.url}}/assets/css/github.css">
+    <link rel="stylesheet" href="/front-end-tech{{site.url}}/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/front-end-tech{{site.url}}/assets/css/app.css">
+    <link rel="stylesheet" href="/front-end-tech{{site.url}}/assets/css/github.css">
 
-    <script src="/front-end-tech/assets/js/all.js"></script>
-    <script src="/front-end-tech/assets/js/app.js"></script>
-    <script src="/front-end-tech/assets/js/jekyll-search.js"></script>
+  <script src="/assets/js/all.js"></script>
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/jekyll-search.js"></script>
 
 
   {% if page.title == "Home" %}
@@ -53,11 +53,11 @@
     backgroundImage[5] = 'bcg6.jpg';
 
     var random=Math.floor(Math.random()*6);
-    document.write("<style>body {background: url(" + "/front-end-tech/assets/images/" + backgroundImage[random] + ") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;color:#fff;background-color:#333;}</style>")
+    document.write("<style>body {background: url("+"/assets/images/"+backgroundImage[random]+") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;color:#fff;background-color:#333;}</style>")
     
     </script>
-    <link rel="stylesheet" href="{{site.url}}/assets/css/bcg.css">
-    <link rel="stylesheet" href="{{site.url}}/assets/css/MetroJs.min.css">
+  <link rel="stylesheet" href="{{site.url}}/assets/css/bcg.css">
+  <link rel="stylesheet" href="{{site.url}}/assets/css/MetroJs.min.css">
   {% endif %}
 
   {% if page.bloghome == true %}
@@ -72,8 +72,8 @@
 
 
   <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="/front-end-tech{{site.url}}/assets/images/UI_HTML5_CSS.png">
-    <link rel="shortcut icon" href="/front-end-tech{{site.url}}/assets/images/UI_HTML5_CSS.png">
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="{{site.url}}/assets/images/UI_HTML5_CSS.png">
+    <link rel="shortcut icon" href="{{site.url}}/assets/images/UI_HTML5_CSS.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
