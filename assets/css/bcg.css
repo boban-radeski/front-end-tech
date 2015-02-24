@@ -89,7 +89,7 @@
 }
 
 .icon-resume {
-	background-image: url('front-end-tech/assets/images/icon-resume.png');
+	background-image: url('/front-end-tech/assets/images/icon-resume.png');
 	background-position: center;
 	background-repeat: no-repeat;
 }
