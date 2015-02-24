@@ -10,7 +10,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Front End Technology Blog'
 tagline:          'Front End Tecnology Blog'
 description:      'Blog for all Front End Developers....'
-url:              'http://boban-radeski.github.io/front-end-tech'
+url:              'http://boban-radeski.github.io/front-end-tech/'
 baseurl:          ''
 
 # Navigation
