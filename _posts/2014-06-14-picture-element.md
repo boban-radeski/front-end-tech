@@ -43,8 +43,8 @@ Example:
 
 *  **Case 1: Set browser to size smaller than 600px**
 
-![demo image](https://haselt.atlassian.net/wiki/download/attachments/8585257/small-prtsc.png?version=1&modificationDate=1402702266654&api=v2)
+![demo image](/front-end-tech/images/small-prtsc.png)
 
 * **Case 2: Set browser size greater than 601px**
 
-![demo image](https://haselt.atlassian.net/wiki/download/attachments/8585257/large-prtsc.png?version=1&modificationDate=1402702304505&api=v2)
+![demo image](/front-end-tech/images/large-prtsc.png)
