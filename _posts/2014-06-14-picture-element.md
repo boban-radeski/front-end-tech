@@ -43,8 +43,8 @@ Example:
 
 *  **Case 1: Set browser to size smaller than 600px**
 
-![demo image](/front-end-tech/images/small-prtsc.png)
+![demo image](/front-end-tech/assets/images/small-prtsc.png)
 
 * **Case 2: Set browser size greater than 601px**
 
-![demo image](/front-end-tech/images/large-prtsc.png)
+![demo image](/front-end-tech/assets/images/large-prtsc.png)
