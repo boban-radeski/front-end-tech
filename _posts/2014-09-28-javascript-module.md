@@ -75,7 +75,7 @@ the Object prototype object are propagated to all objects unless the properties 
 overridden further along the prototype chain. The prototype pattern allows object to inherit from other objects, via their prototypes.
 This is an easy and natural way of implementing inheritance in JavaScript. Function prototype works with references. The image bellow visually illustrate  prototypes.
 
-![Alt text](https://haselt.atlassian.net/wiki/download/attachments/14024706/image2014-8-28%2023%3A39%3A57.png?version=1&modificationDate=1409261996432&api=v2 "Optional title")
+![Alt text](/front-end-tech/assets/images/js-module.png "Optional title")
 
         var prototypeApp = (function () {
                    var Ford = function () {
