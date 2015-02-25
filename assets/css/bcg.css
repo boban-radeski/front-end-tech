@@ -77,13 +77,13 @@
 }
 
 .rs-ico {
-	background-image: url('/assets/images/rs_ico.png');
+	background-image: url('/front-end-tech/assets/images/rs_ico.png');
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .rs-ico-sm {
-	background-image: url('/assets/images/rs_ico_sm.png');
+	background-image: url('/front-end-tech/assets/images/rs_ico_sm.png');
 	background-position: center;
 	background-repeat: no-repeat;
 }
