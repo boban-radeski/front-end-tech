@@ -5,7 +5,7 @@ description: About Me
 theme: purple
 ---
 
-![this is me](/front-end-tech/assets/images/boban.jpg "Boban"){my-img}
+![this is me](/front-end-tech/assets/images/boban.jpg){my-img}
 I am a web focused developer mostly working using latest Microsoft .NET technologies. <br />
 I am a coffee lover too :) <br />
 I am based in Skopje, Macedonia. <br />
