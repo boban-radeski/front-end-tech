@@ -5,7 +5,7 @@ description: About Me
 theme: purple
 ---
 
-![this is me](/front-end-tech/assets/images/boban.jpg "Boban" =150x)
+![this is me](/front-end-tech/assets/images/boban.jpg "Boban")
 
 I am a web focused developer mostly working using latest Microsoft .NET technologies. <br />
 I am a coffee lover too :) <br />
