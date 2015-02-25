@@ -48,3 +48,6 @@ Example:
 * **Case 2: Set browser size greater than 601px**
 
 ![demo image](/front-end-tech/assets/images/large-prtsc.png)
+
+
+
