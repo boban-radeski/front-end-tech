@@ -26,7 +26,7 @@ Example of using local variable:
 
 
 Using global variable in application is not recommended because every function or other code can change or use it, for example if application is developed by two or more developers and they use the same name of global variable. 
-The module pattern is popular design that pattern that encapsulates ''privacy", state and organization using closures. According to Douglas Crockford closures are:
+The module pattern is popular design pattern that encapsulates ''privacy", state and organization using closures. According to Douglas Crockford closures are:
 "What this means is that an inner function always has access to the vars and parameters of its outer function, even outer function has returned".
 In following example we will see module pattern design with closure and self-invoking function.
 
