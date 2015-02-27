@@ -1,14 +1,6 @@
 /*Scroll-up-button*/
 
-body {
-    background: url("/front-end-tech/assets/images/bcg-d.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    background-color: #333;
-}
+
 
 .scrollToTop {
     width: 48px;

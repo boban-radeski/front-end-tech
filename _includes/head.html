@@ -40,18 +40,25 @@
     {% if page.title == "Home" %}
     <!-- Add background-image -->
     <script>
-
         var backgroundImage = [];
-
         backgroundImage[0] = 'bcg-d.png';
         backgroundImage[1] = 'bcg6.jpg';
-
-
         //var random = Math.floor(Math.random() * 2);
         //document.write("<style>body {background: url(" + "/front-end-tech/assets/images/" + backgroundImage[random] + ") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;color:#fff;background-color:#333;}</style>")
-
-
     </script>
+
+    <style>
+        body {
+            background: url("/front-end-tech/assets/images/bcg-d.png") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: #fff;
+            background-color: #333;
+        }
+    </style>
+
     <link rel="stylesheet" href="{{site.url}}/assets/css/bcg.css">
     <link rel="stylesheet" href="{{site.url}}/assets/css/MetroJs.min.css">
     {% endif %}
@@ -61,7 +68,6 @@
         a, a:hover, a:focus {
             color: #DC572E;
         }
-
     </style>
     {% endif %}
 
