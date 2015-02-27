@@ -1,17 +1,29 @@
 /*、Scroll-up-button*/
-.scrollToTop{
-    width:48px; 
-    height:48px;
+
+body {
+    background: url("/front-end-tech/assets/images/bcg-d.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-color: #333;
+}
+
+.scrollToTop {
+    width: 48px;
+    height: 48px;
     text-decoration: none;
-    position:fixed;
-    top:500px;
-    right:20px;
-    display:none;
+    position: fixed;
+    top: 500px;
+    right: 20px;
+    display: none;
     background: url('/front-end-tech/assets/images/scroll-up.png') no-repeat 0px 0px;
 }
-.scrollToTop:hover{
-    text-decoration:none;
-}
+
+    .scrollToTop:hover {
+        text-decoration: none;
+    }
 /*Default*/
 .justified {
     text-align: justify;
@@ -28,38 +40,38 @@
 }
 
 @media (min-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 0px;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    display: block;
-    padding-right: 0;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  }
+    .sidebar {
+        position: fixed;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding-right: 0;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
 }
 
 
 .container > header {
-	color: #2672EC;
+    color: #2672EC;
 }
 
 
 .tile {
-	width: 100%;
-	display: inline-block;
-	box-sizing: border-box;
-	background: #fff;
-	padding: 20px;
-	margin-bottom: 10px;
-	height: 160px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 160px;
 }
 
-.tile > .title {
-  margin-top: 0px;
-}
+    .tile > .title {
+        margin-top: 0px;
+    }
 
 .purple, .blue, .red, .orange, .green {
     color: #fff;
@@ -99,34 +111,38 @@
     line-height: 50px;
 }
 
-.left-nav-item a{
-    display: block;
-    text-decoration: none;
-    color:#fff;
-}
+    .left-nav-item a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+    }
 
 /*背景对比色*/
-.purple .left-nav-item a:hover{
+.purple .left-nav-item a:hover {
     text-decoration: none;
     color: #fff;
     background: #4D2488;
 }
-.red .left-nav-item a:hover{
+
+.red .left-nav-item a:hover {
     text-decoration: none;
     color: #fff;
     background: #8B162B;
 }
-.green .left-nav-item a:hover{
+
+.green .left-nav-item a:hover {
     text-decoration: none;
     color: #fff;
     background: #007700;
 }
-.blue .left-nav-item a:hover{
+
+.blue .left-nav-item a:hover {
     text-decoration: none;
     color: #fff;
     background: #0062C4;
 }
-.orange .left-nav-item a:hover{
+
+.orange .left-nav-item a:hover {
     text-decoration: none;
     color: #fff;
     background: #C53E10;
@@ -137,7 +153,7 @@
 }
 
 .tags {
-  text-align: justify;
+    text-align: justify;
 }
 
 li.purple > a,
@@ -207,7 +223,7 @@ li.green > a:focus {
 
 a.purple-link,
 a.purple-link:hover,
-a.purple-link:focus{
+a.purple-link:focus {
     color: #5133AB;
 }
 
@@ -241,4 +257,10 @@ a.orange-link:focus {
     list-style: none outside none;
 }
 
-.icon-back{background-position:-966px -40px ; width: 48px ; height: 48px;display:inline-block;text-decoration:none}
+.icon-back {
+    background-position: -966px -40px;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    text-decoration: none;
+}
